@@ -73,7 +73,7 @@ compress_html:
 
 menu:
   - title: Blog
-    url:   /blog/index/
+    url:   /blog/
   - title: About1
     url:   /about1/
 
