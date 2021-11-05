@@ -1,6 +1,7 @@
 ---
 layout: blog
 title: Blog
+permalink: /blog/
 description: >
-  The TsekNet blog. Tutorials, deep-dives, and ramblings.
+  The blog test.
 ---
