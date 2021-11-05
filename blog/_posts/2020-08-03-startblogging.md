@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Get started with Jekyll, GitHub, and Netlify
+title: "startblog"
+date: 2020-08-03
 image: /assets/img/blog/idea.jpg
 description: >
   How this website was made (and my first ever blog post!)
