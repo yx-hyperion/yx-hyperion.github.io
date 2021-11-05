@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 parmalink: /blog1/
 title: Blog
 ---
