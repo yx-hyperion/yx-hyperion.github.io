@@ -70,5 +70,8 @@ compress_html:
   ignore:
     envs:              [development]
 
+plugins:
+  - jekyll-include-cache
+
 sass:
   style:               compressed
