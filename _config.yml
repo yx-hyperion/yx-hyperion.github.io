@@ -70,6 +70,13 @@ compress_html:
   ignore:
     envs:              [development]
 
+
+menu:
+  - title: Blog
+    url:   /blog/
+  - title: About
+    url:   /about/
+
 plugins:
   - jekyll-include-cache
 
