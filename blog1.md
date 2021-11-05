@@ -1,6 +1,6 @@
 ---
 layout: about
-parmalink: /blog1/
+permalink: /blog1/
 title: Blog
 ---
 
