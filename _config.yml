@@ -74,8 +74,8 @@ compress_html:
 menu:
   - title: Blog
     url:   /blog/
-  - title: About
-    url:   /about/
+  - title: About1
+    url:   /about1/
 
 plugins:
   - jekyll-include-cache
