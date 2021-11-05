@@ -2,7 +2,7 @@
 layout: about
 title: >
   > whoami
-image: /assets/img/logo.png
+permalink: /about1/
 ---
 
 - Table of Contents
@@ -41,9 +41,6 @@ cultures—maybe *40 countries before 40*?
 
 Here's my puppy Eevee and her namesake; Feel free to reach out for more pictures
 :)
-
-![Eevee](assets/img/common/eevee.jpg){:height="250px" width="250px"}
-![EeveePokemon](assets/img/common/eeveepokemon.png){:height="250px" width="250px"}
 
 ## Last Name
 
