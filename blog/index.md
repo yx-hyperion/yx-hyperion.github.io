@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-permalink: /blog/index/
+permalink: /blog/
 description: >
   The blog test.
 ---
