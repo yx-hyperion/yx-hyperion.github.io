@@ -1,6 +1,6 @@
 lang:                  en
 title:                 Hyperion
-cover:                 true
+cover:                 false
 
 accent_image:          /assets/img/sidebar-bg.jpg
 accent_color:          rgb(79,177,186)
@@ -72,8 +72,8 @@ compress_html:
 
 
 menu:
-  - title: Blog1
-    url:   /blog1/
+  - title: Blog
+    url:   /blog/
   - title: About1
     url:   /about1/
 
