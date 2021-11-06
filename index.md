@@ -1,5 +1,5 @@
 ---
 layout: welcome
 title:  Welcome
-cover:  true
+cover:  false
 ---
