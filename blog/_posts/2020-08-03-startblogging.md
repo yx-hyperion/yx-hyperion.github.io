@@ -4,11 +4,11 @@ title: "startblog"
 date: 2020-08-03
 image: /assets/img/blog/idea.jpg
 description: >
-  How this website was made (and my first ever blog post!)
+  第一个自己搭建的Blog/小站
 tags: [dev, open source, tutorials]
 ---
 
-Let's build a website!
+国内我曾用过好几个blog，感觉都是用脚做出来的。
 {:.figcaption}
 
 - Table of Contents
