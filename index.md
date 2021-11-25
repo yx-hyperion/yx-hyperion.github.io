@@ -1,5 +1,5 @@
 ---
 layout: welcome
-title:  Welcome
+title:  Welcome to My Site
 cover:  true
 ---
