@@ -73,10 +73,12 @@ compress_html:
 
 
 menu:
-  - title: Blog
+  - title: 博文
     url:   /blog/
-  - title: I,Me,Myself
-    url:   /about1/
+  - title: 关于我
+    url:   /about/
+  - title: 云图
+    url:   /skydance/
 
 plugins:
   - jekyll-include-cache
