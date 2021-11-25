@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /blog1/
-title: Blog
+permalink: /skydance/
+title: 云图计划
 ---
 
 <ul>
