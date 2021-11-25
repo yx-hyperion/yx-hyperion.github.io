@@ -75,10 +75,10 @@ compress_html:
 menu:
   - title: 博文
     url:   /blog/
-  - title: 关于我
-    url:   /about/
   - title: 云图
     url:   /skydance/
+  - title: 关于海伯利安的一切
+    url:   /about/
 
 plugins:
   - jekyll-include-cache
