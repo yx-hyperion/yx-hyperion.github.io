@@ -2,7 +2,7 @@
 layout: about
 title: >
   > whoami
-permalink: /about1/
+permalink: /I,Me,Myself/
 ---
 
 - Table of Contents
