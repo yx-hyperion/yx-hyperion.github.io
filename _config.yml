@@ -1,6 +1,6 @@
 lang:                  en
-title:                 A Growing Lemon
-description:           一个读书写字的人 
+title:                 Dr. 海伯利安
+description:           A Growing Lemon 
 cover:                 true
 
 accent_image:          /assets/img/sidebar-bg.jpg
@@ -77,7 +77,7 @@ menu:
     url:   /blog/
   - title: 云图
     url:   /skydance/
-  - title: 关于海伯利安的一切
+  - title: 关于Hyperion的一切
     url:   /about/
 
 plugins:
