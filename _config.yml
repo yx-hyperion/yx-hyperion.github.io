@@ -75,7 +75,7 @@ compress_html:
 menu:
   - title: Blog
     url:   /blog/
-  - title: About1
+  - title: I,Me,Myself
     url:   /about1/
 
 plugins:
