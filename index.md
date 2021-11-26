@@ -1,5 +1,5 @@
 ---
 layout: default
-title:  Welcome to My Site
+title:  Welcome to My Site!
 cover:  true
 ---
