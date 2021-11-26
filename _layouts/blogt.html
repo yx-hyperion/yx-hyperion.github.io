@@ -1,6 +1,7 @@
 ---
 layout: base
 ---
+{% assign plugins = site.plugins | default:site.gems %}
 
 <ul>
   {% for post in site.posts %}
