@@ -7,7 +7,7 @@ layout: base
   {% for post in site.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ include_cached components/post.html post=post no_link_title=page.no_link_title no_excerpt=page.no_excerpt hide_image=page.hide_image }}</p>
+      <p>{% include_cached components/post.html post=post no_link_title=page.no_link_title no_excerpt=page.no_excerpt hide_image=page.hide_image %}</p>
     </li>
   {% endfor %}
 </ul>
