@@ -2,7 +2,5 @@
 layout: blogt
 title: Blog
 description: >
-  The TsekNet blog. Tutorials, deep-dives, and ramblings.
+  Dr. Hyperion's Blog
 ---
-
-Great Test?
