@@ -4,5 +4,5 @@ layout: base
 {% assign plugins = site.plugins | default:site.gems %}
 
 {% for post in posts %}
-  {% include_cached components/post.html post=post  no_excerpt=page.no_excerpt hide_image=page.hide_image %}
+  {% include_cached components/post.html post=post %}
 {% endfor %}
