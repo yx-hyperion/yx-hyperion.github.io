@@ -1,6 +1,6 @@
 ---
 layout: blogt
-title: Blog
+title: Novel
 description: >
-  Dr. Hyperion's Blog
+  Dr. Hyperion's Novel
 ---
