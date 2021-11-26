@@ -4,5 +4,5 @@ layout: base
 {% assign plugins = site.plugins | default:site.gems %}
 
 {% for post in posts %}
-  {% include_cached components/post.html post=post %}
+  {{ include_cached components/post.html post=post }}
 {% endfor %}
