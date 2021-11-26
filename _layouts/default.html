@@ -21,28 +21,10 @@ WALAWALA##
 {% assign strings = site.data.strings %}
 
 <article class="page" role="article">
-  <header>
-    <h1 class="page-title">{{ page.title | default:strings.home | default:"Home" }}</h1>
-    {% include components/message.html text=page.description hide=page.hide_description %}
-  </header>
-
-  {{ content }}
-
-  <hr class="dingbat related"/>
-
   {% if site.posts.size > 0 %}
     <h2 class="hr-bottom">{{ strings.posts | default:"更新博文" }}</h2>
     <ul class="related-posts">
       {% for post in site.posts limit:3 %}
-        {% include_cached components/post-list-item.html post=post %}
-      {% endfor %}
-    </ul>
-  {% endif %}
-
-  {% if site.pages.size > 0 %}
-    <h2 class="hr-bottom">{{ strings.pages | default:"更新小说" }}</h2>
-    <ul class="related-posts">
-      {% for post in site.pages limit:3 %}
         {% include_cached components/post-list-item.html post=post %}
       {% endfor %}
     </ul>
