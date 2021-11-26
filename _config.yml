@@ -75,9 +75,7 @@ compress_html:
 menu:
   - title: 博文
     url:   /blog/
-  - title: 云图
-    url:   /skydance/
-  - title: 关于Hyperion的一切
+  - title: 关于我
     url:   /about/
 
 plugins:
