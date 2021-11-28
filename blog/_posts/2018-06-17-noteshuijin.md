@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 梦歌 随笔
 image: /assets/img/blog/windowskeyboard.jpg
