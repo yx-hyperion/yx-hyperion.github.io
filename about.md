@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 一个90‘s的网上冲浪（误）
+title: 一个90‘s的网上冲浪
 permalink: /about/
 ---
 Dr. 海伯利安 = Dr. Hyperion 
