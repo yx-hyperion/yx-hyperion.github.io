@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 一个90‘s的网上冲浪
+title: <s>一个90‘s的网上冲浪</s>
 permalink: /about/
 ---
 Dr. 海伯利安 = Dr. Hyperion 
@@ -12,6 +12,7 @@ Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!）。�
 
 ## 工作
 我是一个得不断学习📚才有🍚吃的经济学家。
+
 研究领域：宏观经济，货币与银行，金融系统稳定性。I'm a growing lemon in Macro & Financial studies.
 {:.faded}
 
