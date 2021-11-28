@@ -24,11 +24,14 @@ Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!）。�
 {:.faded}
 
 
-## 文学 & 艺术
-作为一个传统文学与科幻爱好者，<del>兼任业余三分钟热度写手</del>。
+## 文学 & 音乐 & 艺术
+作为一个传统文学与科幻爱好者，<del>兼任业余三分钟热度写手</del>。小站一个主要功能，就是我的写作自留地。
 
-小站一个主要功能，就是我的写作自留地
-{:.faded}
+Posts
+
+每个人都觉得自己的音乐品味是最牛X的。我的歌单【待开发】
+
+Music
 
 我也喜欢梵高与莫奈的作品，喜爱他们对色彩的运用。
 
@@ -44,10 +47,8 @@ Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!）。�
 
 
 ## 联系方式
+有任何问题，欢迎邮件[@Dr Hyperion](mailto:yu.xiaoeconomics@gmail.com)联系我。
 
-Want to get in touch? Find an error in an article?{:.faded}
-
-The best way to reach me is via email [@Dr Hyperion](mailto:yu.xiaoeconomics@gmail.com).
 
 ## Disclaimer
-本站文章内容仅代表个人观点/The opinions stated here are all my own.
+本站文章内容仅代表个人观点。The opinions stated here are all my own.
