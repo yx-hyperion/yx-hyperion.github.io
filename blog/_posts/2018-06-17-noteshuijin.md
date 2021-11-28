@@ -1,151 +1,36 @@
 ﻿---
 layout: post
-title: How to Determine Windows Version
+title: 梦歌 随笔
 image: /assets/img/blog/windowskeyboard.jpg
 description: >
-  So how does one determine the version of Windows running across an enterprise environment?
-tags: [devops, tips, windows, registry]
+  《梦歌》随笔
+tags: [读书随笔]
 ---
 
-- Table of Contents
-{:toc}
+读完马丁大爷的《梦歌》，选填个随笔
 
-Sounds simple, right?
-{:.lead}
+中文里似乎这是唯一一套马丁大爷的选集，粉丝狂喜。如果风港、光逝、图夫等单行本也有一套统一的封面就好了。。
 
-Microsoft surfaces Windows Version numbers in various locations:
+《灰烬之塔》
 
-- There are Registry values, which are desperately missing
-documentation.
-- There are numerous PowerShell Cmdlets, Windows API calls, etc.
-- There are also end-user options such as the `winver` command, which pops up a
-window that tells the user what their Windows version is.
-- And many more...
+这个故事大概让人一头雾水。我觉得有两个解读。一个是男主被咬了，箭也射歪了，三个人最后都没有逃出去。最后一小段的康复、重回捕猎梦蛛的生活、分手和回归平静都是幻觉。这也是为什么宠物猫变成了梦蛛（很可能自己正在被吃掉。。）。第二种解读是，男主被咬了，但确实被救了下来，事实就是克瑞丝和盖瑞的版本，男主自己的英勇和牺牲是自己的幻觉和梦想。他梦想自己的牺牲能够在克瑞丝心中留下一个比过盖瑞的形象（呵，男人）。但最后的猫无法解释，大概始终不清醒。灰烬之塔应该就是已经消失的文明的遗迹，（象征着）就像男女主的爱情，都已化作粉末烟消云散，没有挽回。有《光逝》的意味。至于那个在蛛网上挣扎导致发生事故的长翅膀的人形生物，鬼知道是什么。。男主眼花的幻觉？还是那个消失的文明退化的族人？担心过度解读，只能放过这个大大的问号。大爷的文，很多时候没有解答的疑问、刻意留白的想象空间带给了文章更多的余温。
 
-Helping you make sense of this all is where this post comes in.
+=== === 
 
-There are many tools available to help you determine which version of Windows
-your clients are running such as SCCM, PDQ. This post will focus on built-in
-methods for determining Windows version.
-{:.note}
+《莱安娜之歌》
 
-## Registry
+最早出现在科幻世界译文版，很多很多年前了。故事主旨让人联想到《新世纪福音战士》的“补完计划”，都是对个体的孤立和与之相随的孤独的探讨：人的自我意识是残缺的，作为个体，人和人绝对的爱、理解和共鸣都是不可求的。面对这一现实，我们询问并渴望是否存在一种“补完”，实现集体/融合的意识，在不分你我中实现终极的祥和与快乐。宗教，不过是对这种终极大同的拙劣模仿。与其说是教义和信仰带来的平静，不如说是因为这种共鸣和共通的体验，带给了信徒们满足和现充感。
 
-The following Registry values can be used to determine the version of Windows a
-system is running:
+但我们又真正有多大的渴望去获得这种永恒的结合？还是说，这种永恒的融合只是一种“得不到的永远在骚动”？我相信对于保持独立和自由的精神、能够享受黑暗中的宁静依旧是许多人的向往。这种情怀从鲁滨逊漂流记到废土末日类小说都能鲜明的体现。“人人都爱看末日后的故事，因为我们都安安盼望成为幸存者，盼望一切能从头再来。”或许我们的性情本就在永恒的融合和永恒的孤独间徘徊，我们不能忍受两个极端，却又暗暗幻想在那尽头是怎样的存在。
 
-| Key                                                             | Value          | Data Example | Explanation                           |
-| --------------------------------------------------------------- | -------------- | ------------ | ------------------------------------- |
-| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion | ReleaseId      | 2009         | Version number integer (as a string). Added in version 1803, Deprecated with 21H1   |
-| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion | DisplayVersion | 20H2         | Version codename mixed string. Added in version 1803. |
-| HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion | CurrentBuild   | 19042        | Version build number, used by winver.exe.                                     |
+=== ===
 
-The values listed in the table above are not officially documented by Microsoft
-(see [below](#word-of-warning))
-{:.warning}
+《杀人之前请三思》
 
-### Word of Warning
+大爷的科幻作品经常涉及宗教，而“一千个世界”的设定中有关宗教的故事情节，走向似乎总是很扭曲和邪典。钢铁天使们殖民一颗荒蛮的星球，在扩张和屠杀原住民的过程中，信仰和教条逐渐扭曲和异化。虽然“神”并没有在故事中现身一次，虽然钢铁天使们取得了胜利，虽然故事并没有写明这颗星球今后将要发生的事情，但扭曲和恐怖的感觉却萦绕着整个故事，让人感到SAN值的直线下降。圣童的雕塑显然不是内克教给原住民的，而金字塔也并非简西人所创造。钢铁天使们就是未来的简西人，在狂热中衰退到忘记所有的故事，在未来某天，他们将用空洞的眼神看着新的天使从天而降。
 
-Microsoft has not communicated changes to these Registry values, documented
-their official support, or guaranteed against
-[breaking changes in the future](https://twitter.com/bytenerd/status/1395072885249564672).
-This has lead to a frustrating experience using the Registry keys above, given how inconsistent Microsoft's updates to these keys have historically been. Examples:
+=== ===
 
-- ReleaseID was
-  [deprecated](https://twitter.com/bytenerd/status/1395071115072966656) in
-  version 21H1. The ReleaseID for 21H1 remains 2009.
-- Server 2012R2 doesn't have ReleaseID or DisplayVersion (they weren't added to
-  Windows yet)
-- Server 2016 has ReleaseID (1607) but no DisplayVersion
-- Server 2019 has ReleaseID (1809) no DisplayVersion
+《孽海花》
 
-## PowerShell
-
-Below are some examples of how you can use PowerShell to determine the version
-of Windows your systems are running:
-
-```powershell
-# Using the System.Environment Class
-[System.Environment]::OSVersion
-
-# Using the Win32_OperatingSystem CIM Class
-Get-CimInstance Win32_OperatingSystem
-
-# Using the systeminfo executable
-systeminfo.exe /fo csv | ConvertFrom-Csv
-
-# Using the Get-ComputerInfo Cmdlet
-# NOTE: OsHardwareAbstractionLayer was deprecated in version 21H1
-Get-ComputerInfo | Select WindowsProductName, WindowsVersion, OsHardwareAbstractionLayer
-```
-
-## Windows API Call
-
-The only supported (documented) systematic way of determining a Windows version
-is through a Windows API call to the
-[AnalyticsInfo](https://docs.microsoft.com/en-us/uwp/api/windows.system.profile.analyticsinfo?view=winrt-20348)
-class. This can be done via PowerShell as shown below:
-
-<script src="https://gist.github.com/pronichkin/9d5caaf86329c3098e2a9f23d0c07bdd.js"> </script>
-Credit: [@pronichkin](https://twitter.com/Pronichkin)
-{:.figcaption}
-
-## End-User Options
-
-Microsoft
-[documentation](https://support.microsoft.com/en-us/windows/which-version-of-windows-operating-system-am-i-running-628bec99-476a-2c13-5296-9dd081cdd808)
-lists a few commands end-users can use to determine which version of Windows
-they are running. For example, the `winver` command, or the Windows Settings
-menu can be used to determine Windows Version. This is meant to be more end-user
-facing for verification, rather than for use to determine system version at
-scale. Examples below:
-
-![winver](../../assets/img/blog/winver.jpg)
-![winversettings](../../assets/img/blog/winversettings.png)
-
-## Why This Matters
-
-Once you've determined the version of Windows your systems are running, you can
-use this information to take deterministic actions such as installing Windows
-Updates, applying patches, etc. For example:
-
-You can query the `DisplayVersion` registry value ([above](#registry)) to
-determine which version of Windows your systems are running. Then, you could set
-the Registry values listed below that tell Windows which version the system
-should be running. With three registry keys, you've fully controlled which
-version of Windows your systems will attempt to upgrade to!
-
-| Key                                                                  | Value                    | Data Example | Explanation                                                                          |
-| -------------------------------------------------------------------- | ------------------------ | ------------ | ------------------------------------------------------------------------------------ |
-| HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate | TargetReleaseVersion     | 1            | Setting this to one enables Feature Upgrades to the TargetReleaseVersionInfo version |
-| HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate | TargetReleaseVersionInfo | 20H2         | The target version of the system                                                     |
-
-These registry values can either be set directly, or via [Group Policy](Microsoft nixes update deferral settings, but gives us a TargetReleaseVersionInfo)
-{:.note}
-
-## Where to go from here
-
-While it's not necessary to manage which versions of Windows are running on your
-fleet, it's likely valuable information to your Enterprise which versions of
-Windows are currently running on your fleet. If just for the fact that Windows
-regularly ends support for
-[versions of Windows](https://docs.microsoft.com/en-us/lifecycle/products/windows-10-enterprise-and-education).
-
-Further, I'll note that the examples above are not meant to be an exhaustive
-list of ways to determine Windows version, but rather a reference for myself and
-other folks managing a Windows environment. These methods have proven useful to me when troubleshooting issues, setting policy, etc. Hopefully you'll find
-them useful as well.
-
-Finally, managing Windows versions has always been a moving target. So I look
-forward to making another post about how to manage Windows versions in the
-future, once Microsoft has deprecated the existing methods posted above.
-
-Feel free to reach out if you run into any issues, and see related links (below)
-for further reading. Hopefully, this post saved you some Googling around trying
-to find all this information 🔎
-
-## Related Links
-
-- [Microsoft nixes update deferral settings, but gives us a TargetReleaseVersionInfo](https://www.computerworld.com/article/3564158/microsoft-nixes-update-deferral-settings-but-gives-us-a-targetreleaseversioninfo.html)
-- [Windows 10 Version History](https://en.wikipedia.org/wiki/Windows_10_version_history)
-- [Windows Server Versions](https://en.wikipedia.org/wiki/List_of_Microsoft_Windows_versions).
+这应该是我早期印象最深的一片文章。一千个世界的一个角落里，这个让人动容的、美丽而忧伤的故事。故事的设计很吸引人，一个有着漫长严冬和夏日的残酷世界，一艘坠毁的来自文明世界的飞船，两个不同世界的主角相遇相知，彼此拯救。夏恩面临的是生存的困境，而摩根却饱受孤独的折磨。摩根那与她年龄不相称的欢笑和活泼、故事中期的快乐，统统在整个故事真相和结局部分带来了加倍地震撼和哀伤：哀伤于漫长的孤独和破碎的希望，哀伤于得而复失的友情和爱情。年迈的夏恩再次回到飞船，故人已逝，她却终于意识到，摩根的欺骗和那些没有去过的群星，才是此生最美好的记忆。
