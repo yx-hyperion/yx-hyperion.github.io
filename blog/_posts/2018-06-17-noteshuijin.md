@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 梦歌 随笔
-image: /assets/img/blog/windowskeyboard.jpg
+image: /assets/img/blog/梦歌.jpg
 description: >
   《梦歌》随笔
 tags: [读书随笔]
