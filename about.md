@@ -25,7 +25,7 @@ Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!）。�
 
 
 ## 文学 & 艺术
-作为一个传统文学与科幻爱好者，兼任业余三分钟热度写手。
+作为一个传统文学与科幻爱好者，<del>兼任业余三分钟热度写手</del>。
 
 小站一个主要功能，就是我的写作自留地
 {:.faded}
