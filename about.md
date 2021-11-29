@@ -11,9 +11,9 @@ Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!）。�
 
 
 ## 工作
-我是一个得不断学习📚才有🍚吃的经济学家。
+我是一个宏观经济学家。不断学习📚才有饭吃🍚。
 
-研究领域：宏观经济，货币与银行，金融系统稳定性。I'm a growing lemon in Macro & Financial studies.
+研究领域：宏观经济，货币与银行，金融系统稳定性。A growing lemon in Macro & Financial studies.
 {:.faded}
 
 
@@ -29,7 +29,7 @@ Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!）。�
 
 Posts
 
-每个人都觉得自己的音乐品味是最牛X的。我的歌单【待开发】
+每个人都觉得自己的音乐品味是最牛X的。<del>我的歌单【待开发】</del>
 
 Music
 
