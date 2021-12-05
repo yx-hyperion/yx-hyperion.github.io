@@ -5,8 +5,8 @@ layout: base
 <article class="page" role="article">
       
       <ul class="related-posts">
-      {% for post in site.posts limit:3 %}
-        {% include_cached components/post-list-item.html post=post %}
+      {% for post in site.posts %}
+        {% include_cached components/post-list-item.html post=post no_link_title=page.no_link_title no_excerpt=page.no_excerpt hide_image=page.hide_image%}
       {% endfor %}
       </ul>
       
