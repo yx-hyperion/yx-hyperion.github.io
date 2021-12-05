@@ -2,8 +2,12 @@
 layout: base
 ---
 
-<ul class="related-posts">
-      {% for post in site.posts %}
+<article class="page" role="article">
+      
+      <ul class="related-posts">
+      {% for post in site.posts limit:3 %}
         {% include_cached components/post-list-item.html post=post %}
       {% endfor %}
-</ul>
+      </ul>
+      
+</article>
