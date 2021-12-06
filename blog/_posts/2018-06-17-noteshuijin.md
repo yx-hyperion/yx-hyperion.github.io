@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 梦歌 随笔
+title: 梦歌
+image: /assets/img/blog/GM.jpg
 description: >
   《梦歌》随笔
 tags: [读书随笔]
