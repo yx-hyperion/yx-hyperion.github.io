@@ -9,6 +9,7 @@ Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!）。�
 
 欢迎来到我的个人网站。
 
+  [![HitCount](http://hits.dwyl.com/econyu/blog.svg?style=flat-square)](http://hits.dwyl.com/econyu/blog)
 
 ## 工作
 我是一个宏观经济学家。不断学习📚才有饭吃🍚。
