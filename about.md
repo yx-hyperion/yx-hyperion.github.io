@@ -1,6 +1,6 @@
 ---
 layout: about
-title: <del>一个90‘s的网上冲浪</del>
+title: <del>一个90‘s的网上冲浪</del>   [![HitCount](http://hits.dwyl.com/econyu/blog.svg?style=flat-square)](http://hits.dwyl.com/econyu/blog)
 permalink: /about/
 ---
 Dr. 海伯利安 = Dr. Hyperion 
@@ -9,7 +9,6 @@ Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!）。�
 
 欢迎来到我的个人网站。
 
-  [![HitCount](http://hits.dwyl.com/econyu/blog.svg?style=flat-square)](http://hits.dwyl.com/econyu/blog)
 
 ## 工作
 我是一个宏观经济学家。不断学习📚才有饭吃🍚。
