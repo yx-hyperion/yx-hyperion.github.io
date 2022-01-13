@@ -1,6 +1,7 @@
 ---
 layout: about
-title: <del>一个90‘s的网上冲浪</del>   [![HitCount](http://hits.dwyl.com/econyu/about.svg?style=flat-square)](http://hits.dwyl.com/econyu/about)
+title: <del>一个90‘s的网上冲浪</del>
+[![HitCount](http://hits.dwyl.com/econyu/about.svg?style=flat-square)](http://hits.dwyl.com/econyu/about)
 permalink: /about/
 ---
 Dr. 海伯利安 = Dr. Hyperion 
