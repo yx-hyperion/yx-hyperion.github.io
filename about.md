@@ -3,7 +3,7 @@ layout: about
 title: <del>一个90‘s的网上冲浪</del>
 permalink: /about/
 ---
-欢迎来到我的个人网站！ [![HitCount](http://hits.dwyl.com/econyu/blog.svg?style=flat-square)](http://hits.dwyl.com/econyu/blog) 
+欢迎来到我的个人网站！ [![HitCount](http://hits.dwyl.com/econyu/about.svg?style=flat-square)](http://hits.dwyl.com/econyu/about) 
 
 Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!），海伯利安 = Hyperion，是我喜欢的一本科幻小说，是一颗星球，也是我的互联网ID。
 
