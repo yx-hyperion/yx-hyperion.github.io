@@ -53,12 +53,3 @@ Posts
   
 万国执政官。空中花园首席。提瓦特大陆的旅行者。
 {:.faded}
-
-
-## 联系方式
-有任何问题，欢迎邮件[@Dr Hyperion](mailto:yu.xiaoeconomics@gmail.com)联系我。
-
-  
-## Credits & Disclaimer
-本站框架Fork自Hydejack。我自己学习并加入各种功能，目前是一个小缝合怪。欢迎各路大神提供帮助！
-本站内容均代表个人观点。
