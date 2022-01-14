@@ -75,7 +75,7 @@ compress_html:
 menu:
   - title: 博文
     url:   /blog/
-  - title: 关于我
+  - title: 关于小站
     url:   /about/
 
 plugins:
