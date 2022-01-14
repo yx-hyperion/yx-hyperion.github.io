@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  欢迎来到海伯利安的个人网站!
+title:  欢迎来到我的小站!
 cover:  true
 ---
 
