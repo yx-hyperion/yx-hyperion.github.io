@@ -9,7 +9,7 @@ cover:  true
 
 
 ## Dr.海伯利安
-这是一个90's的<del>网上冲浪</del>自留地。Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!），海伯利安 = Hyperion，是我喜欢的一本科幻小说，是一颗星球，也是我的互联网ID。
+这是一个90's的<del>网上冲浪</del>元宇宙领地。Dr是我的title（Dr. Raj, Dr Cooper, Dr Hofstadter, and...Mr. Wolowitz!），海伯利安 = Hyperion，是我喜欢的一本科幻小说，是一颗星球，也是我的互联网ID。<del>作为一个业余三分钟热度写手</del>，我搭建小站的一个主要目的 就是建一个自由写作的自留地。
 
   
 ## 工作
@@ -27,19 +27,13 @@ cover:  true
 旅行最重要的永远不是目的地，而是和谁同行。
 {:.faded}
 
-  
 
-## 文学 & 音乐 & 艺术
-作为一个传统文学与科幻爱好者，<del>兼任业余三分钟热度写手</del>。小站一个主要功能，就是我的写作自留地。
-
-Posts
-
+## 音乐 & 艺术
 每个人都觉得自己的音乐品味是最牛X的。<del>我的歌单【待开发】</del>
-
   
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1470773578&auto=1&height=66"></iframe>
 
-  
+
 我也喜欢梵高与莫奈的作品，喜爱他们对色彩的运用。
 
   
