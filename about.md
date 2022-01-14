@@ -29,8 +29,11 @@ Posts
 
 每个人都觉得自己的音乐品味是最牛X的。<del>我的歌单【待开发】</del>
 
+不知道为啥改不了
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=1470773578&auto=1&height=66"></iframe>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=419485843&auto=1&height=66"></iframe>
 
 
 我也喜欢梵高与莫奈的作品，喜爱他们对色彩的运用。
