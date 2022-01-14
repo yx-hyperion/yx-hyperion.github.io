@@ -3,10 +3,9 @@ layout: about
 title: Credits & Contact
 permalink: /about/
 ---
+非计算机相关专业，只算业余爱好，我对好看的、有意思的小站设计与搭建感兴趣。在不断学习并加入各种功能，小站目前是一个小缝合怪。欢迎各路大神提供帮助！
 
-## Credits
-非CS出身，我在不断学习并加入各种功能，小站目前是一个小缝合怪。欢迎各路大神提供帮助！  
-#### References:  
+## Credits & References  
 本站框架Fork自Hydejack  
 博客格式：  
 音乐：  
