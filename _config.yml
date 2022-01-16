@@ -20,7 +20,7 @@ hydejack:
   no_push_state:       false
   no_drawer:           false
   no_navbar:           false
-  no_search:           false
+  no_search:           true
   no_inline_css:       false
   no_page_style:       false
   no_break_layout:     true
